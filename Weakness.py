@@ -1,8 +1,4 @@
-def Weakness(Gen1):
-    arg2 = input("Choose a Type to find the 6 best Pokemon to combat it: ")
-    print('\n')
-    Bstat = input("Choose a Base stat to sort the strongest Pokemon by: 'Total' 'HP', 'Attack','Defense','Sp.Atk','Sp.Def','Speed' : ")
-    print('\n')
+def Weakness(Gen1,Bstat,arg2):
     if arg2 == 'Water':
             Weakness = Gen1.loc[(Gen1['Type1'] == 'Grass') ^ (Gen1['Type1']=='Electric') ^ 
                                 (Gen1['Type2'] == 'Grass') ^ (Gen1['Type2']=='Electric')]
