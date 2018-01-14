@@ -11,3 +11,5 @@ Statistical Analysis with Python: Pokemon
 
 **[Weakness](https://github.com/IshNjie/Statistical-Analysis-with-Python--Pokemon/blob/master/Weakness.py)** - This contains code to find the top 6 Pokemon that can combat a given Poketype
 
+Check out the [Demo](https://github.com/IshNjie/Statistical-Analysis-with-Python--Pokemon/blob/master/Demo.ipynb) notebook, this is the full investigation carried out
+
